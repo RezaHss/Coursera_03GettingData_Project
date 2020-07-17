@@ -11,7 +11,7 @@ I have included four files in this repository:<br/>
 4. **README.md** - Describing how the script works.<br/>
 
 
-To read in the averages.txt file, please use the following script:
+To read in the *averages.txt* file, please use the following script:
 
 ```{r}
 library(readr)
@@ -38,7 +38,7 @@ After extracting the zip file downloaded from the coursera website, a folder nam
 
 **Note:** I used "tidyverse" library (which automatically loads dplyr, readr, and some other useful packages), instead of base R functions, for faster and easier reading and manipulation of the data. <br/>
 <br/>
-In my script (run_analysis.R), I have followed the five steps instructed by the course: <br/>
+In my script (*run_analysis.R*), I have followed the five steps instructed by the course: <br/>
 
 * **Step 1:** I put the data files above together in one data set like this (please note that the dimentions of the diagram are not accurate):
 <br/> *Note:* As the contents of the "Inertial Signals" folder in both test and train sets are raw data, and the contents of the other files have been processed, I did not merge the files inside the "Inertial Signals" folders with my main data set, as it opposes tidy data principles. <br/>
