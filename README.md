@@ -42,7 +42,6 @@ In my script (run_analysis.R), I have followed the five steps instructed by the 
 
 * **Step 1:** I put the data files above together in one data set like this (please note that the dimentions of the diagram are not accurate):
 <br/> *Note:* As the contents of the "Inertial Signals" folder in both test and train sets are raw data, and the contents of the other files have been processed, I did not merge the files inside the "Inertial Signals" folders with my main data set, as it opposes tidy data principles. <br/>
-
 <center> <img src="diagram.png" alt="diagram" width=30% height=30%> </center>
 <br/>
 * **Step 2:** I extracted 33 measures of mean and 33 measures of standard deviation. <br/>
