@@ -56,4 +56,7 @@ In my script (*run_analysis.R*), I have followed the five steps instructed by th
 * **Step 5:** I created a second tidy data set containing the mean of each of the 66 features (33 mean features and 33 standard deviation features) for each subject and each activity. As there are 30 subjects (participants) and six activities, my final data set (*averages.txt*) has 180 rows, as well as 68 columns (one for *subjectNumber*, one for *activityLabel*, plus the 66 extracted features).
 <br/>
 
-**Note: Further details of my solution for this project can be found in the comment sections throughout the *run_analysis.R* file.**
+**Note: Further details of my solution for this project can be found in the comment sections throughout the *run_analysis.R* file.** <br/>
+<br/>
+**Acknowledgements:** <br/>
+I want to thank David Hood for his amazing [instructions](https://thoughtfulbloke.wordpress.com/2015/09/09/getting-and-cleaning-the-assignment/).
