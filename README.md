@@ -41,15 +41,10 @@ After extracting the zip file downloaded from the coursera website, a folder nam
 In my script (run_analysis.R), I have followed the five steps instructed by the course: <br/>
 
 * **Step 1:** I put the data files above together in one data set like this (please note that the dimentions of the diagram are not accurate):
-<br/>
-*Note:* As the contents of the "Inertial Signals" folder in both test and train sets are raw data, and the contents of the other files have been processed, I did not merge the files inside the "Inertial Signals" folders with my main data set, as it opposes tidy data principles.
-
-<br/>
+<br/> *Note:* As the contents of the "Inertial Signals" folder in both test and train sets are raw data, and the contents of the other files have been processed, I did not merge the files inside the "Inertial Signals" folders with my main data set, as it opposes tidy data principles. <br/>
 
 <center> <img src="diagram.png" alt="diagram" width=30% height=30%> </center>
-
 <br/>
-
 * **Step 2:** I extracted 33 measures of mean and 33 measures of standard deviation. <br/>
 *Note:* There are both "mean" and "meanFreq" among the features (variables). The question asks for mean AND standard deviation. The number of features containing the phrase "std" is 33. This number for phrases "mean" and "meanFreq" is 46 and 13, respectively, and when we exclude "meanFreq" from "mean", the number of matching features would be 33, just as this number for "std". As there is no definite instruction on this issue, I am going with my understanding of the matter and that is I should not include the "meanFreq" in my tidy data set. 
 
