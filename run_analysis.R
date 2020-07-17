@@ -192,3 +192,5 @@ averagesDF
 # "subjectNumber" and "activityLabel", the mean function was not applied to
 # these two columns (otherwise, I would have received warnings for trying to
 # take the mean of character vectors).
+
+write.table(averagesDF, file="averages.txt", row.names=FALSE)

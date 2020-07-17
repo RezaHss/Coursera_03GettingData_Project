@@ -12,7 +12,7 @@ There are 180 observations and 68 columns (variables) in this file. The first tw
   5. WALKING_DOWNSTAIRS
   6. WALKING_UPSTAIRS
   
-The rest of the 66 columns contain the average of different measurements for each *subjectNumber* and each *activityLabel*. The value of all of these measurements are normalized and between -1 and +1. I have used the following method and abbreviations to label these 66 columns: <br/>
+The remaining 66 columns contain the average of different measurements for each *subjectNumber* and each *activityLabel*. The value of all of these measurements are normalized and between -1 and +1. I have used the following method and abbreviations to label these 66 columns: <br/>
 
 Each column name is consisted of either five or six abbreviated parts: <br/>
 
@@ -22,7 +22,7 @@ Each column name is consisted of either five or six abbreviated parts: <br/>
 |Part 1| ***t***: time domain signals.  <br/> ***f***: frequency domain signals. Fast Fourier Transform (FFT) was applied to these signals.|
 |Part 2| ***Body***: signals based on the body motion of the participant. <br/> ***Gravity***: signals based on the earth's gravity.|
 |Part 3| ***Acc***: the signals from the smartphone's accelerometer. <br/> ***Gyro***: the signals from the smartphone's gyroscope.|
-|Parts 4 to 6| ***Mean***: the mean value in the initial data set. <br/> ***Std***: the standard deviation in the initial data set. <br/> ***X, Y, or Z***: the signal was calculated on the X, Y, or Z axis. <br/> ***Jerk***: jerk signals. <br/> ***Mag***: the magnitude calculated using the Euclidean norm |
+|Parts 4 to 6| ***Mean***: the mean value in the initial data set. <br/> ***Std***: the standard deviation in the initial data set. <br/> ***X, Y, or Z***: the signal was calculated on the X, Y, or Z axis. <br/> ***Jerk***: jerk signals. <br/> ***Mag***: the magnitude calculated using the Euclidean norm. |
 
 The unit of each variable (column) is determined by the third part of its name: <br/>
 - ***Acc***: the unit of these variables is standard gravity 'g'. <br/>
