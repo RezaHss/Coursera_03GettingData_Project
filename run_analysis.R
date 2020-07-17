@@ -187,8 +187,8 @@ averagesDF <- mergedDF %>%
               summarize(across(everything(), mean))
 averagesDF
 
-# Here I used across(everything()) to calculate mean across all of the columns.
-# Please note that, as the dataframe had been grouped by "subjectNumber" and 
-# "activityLabel", the mean function was not applied to these two columns
-# (otherwise, I would have received warnings for trying to take the mean of
-# character vectors).
+# Here I used dplyr::across(everything()) to calculate mean across all of the
+# columns. Please note that, as the dataframe had been grouped by
+# "subjectNumber" and "activityLabel", the mean function was not applied to
+# these two columns (otherwise, I would have received warnings for trying to
+# take the mean of character vectors).
