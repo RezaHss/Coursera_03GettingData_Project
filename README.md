@@ -44,6 +44,7 @@ In my script (run_analysis.R), I have followed the five steps instructed by the 
 <br/>
 *Note:* As the contents of the "Inertial Signals" folder in both test and train sets are raw data, and the contents of the other files have been processed, I did not merge the files inside the "Inertial Signals" folders with my main data set, as it opposes tidy data principles.
 
+<br/>
 <center>
 <img src="diagram.png" alt="diagram" width=30% height=30% align="middle">
 </center>
